@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <style>
+            table, th, td { 
+                border: 1px solid black; 
+               
+            }
+        </style>
+    </head>
+    <body>
+        <div>
+            <h3> Select two Starships from the dropdwon lists to compare </h3>
+            <select id="starship1"></select>
+            <select id="starship2"></select>
+
+            <button id = "button">Compare</button>
+        </div>
+        <div>
+            <table>
+                <tr>
+                    <th></th>
+                    <th>Starship 1</th>
+                    <th>Starship 2</th>
+                </tr>
+                <tr>
+                    <td>Name</td>
+                    <td id=ship1Name></td>
+                    <td id=ship2Name></td>
+                </tr>
+                <tr>
+                    <td>Cost</td>
+                    <td id=ship1Cost></td>
+                    <td id=ship2Cost></td>
+                </tr>
+                <tr>
+                    <td>Speed</td>
+                    <td id=ship1Speed></td>
+                    <td id=ship2Speed></td>
+                </tr>
+                <tr>
+                    <td>Cargo Size</td>
+                    <td id=ship1Cargo></td>
+                    <td id=ship2Cargo></td>
+                </tr>
+                <tr>
+                    <td>Passengers</td>
+                    <td id=ship1Passengers></td>
+                    <td id=ship2Passengers></td>
+                </tr>
+            </table>
+        </div>
+
+
+        <script src="starships.js"></script>
+    </body>
+</html>
